@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> -->
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"data-aos="fade-up" data-aos-delay="100"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="close-outline" onclick="hidemenu()"></ion-icon>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showmenu()"></ion-icon>
+        </nav>
+<h1 data-aos="fade-up" data-aos-delay="200">
+    About Us
+</h1>
+    </section>
+<!-- ------------about us------------ -->
+  <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1 data-aos="fade-down-right" data-aos-delay="300">We are the world's largest university</h1>
+            <p data-aos="fade-down-right" data-aos-delay="400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus temporibus dolores numquam vero neque molestiae, deserunt similique eveniet beatae, autem fugiat ipsum maxime tempora voluptates officia consequatur pariatur rerum, aspernatur eaque dolorum reprehenderit fugit. Ipsam beatae iure labore minus ullam architecto dolorum laudantium. Eligendi blanditiis ipsam voluptas quasi dolore!
+            </p>
+            <a href="" class="hero-btn red-btn" data-aos="fade-down-right" data-aos-delay="500"> Explore Now</a>
+        </div>
+        <br>
+        <div class="about-col">
+            <img src="about.jpg" data-aos="fade-down-right" data-aos-delay="600">
+        </div>
+    </div>
+    </section>
+    <!-- -------------footer----------- -->
+    <section class="footer"data-aos="zoom-in" data-aos-delay="900">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, quo! Eum esse<br> quas itaque officiis recusandae inventore facilis tenetur quae.</p>
+        <div class="icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>   
+            <ion-icon name="logo-linkedin"></ion-icon>
+        <p>Made by<ion-icon name="heart"></ion-icon> Jatin Kumar</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
