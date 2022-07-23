@@ -1,180 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Website Design</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Invest Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </head>
-
 <body>
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="logo.png" data-aos="fade-up"></a>
-            <div class="nav-links" id="navLinks">
-                <ion-icon name="close-outline" onclick="hidemenu()"></ion-icon>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="course.html">Course</a></li>
-                    <li><a href="blog.html">Blogs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img class="star" src="star.png" alt="">
+                <div>Frost Inv.</div>
             </div>
-            <ion-icon name="menu-outline" onclick="showmenu()"></ion-icon>
+            <ul class="menu-items">
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
         </nav>
-        <div class="text-box">
-            <h1 data-aos="fade-up" data-aos-delay="100">World's Biggest University</h1>
-            <p data-aos="fade-up" data-aos-delay="200"> Making websites is now one of the easiest thing on the world. You just need to learn HTML, CSS,<br>
-                Javascript and you are good to go.</p>
-            <a href="" class="hero-btn"  data-aos="zoom-in" data-aos-delay="300">Visit Us To know more</a>
-        </div>
-    </section>
-    <!-- ------course-------- -->
-    <section class="course">
-        <h1 data-aos="fade-up"
-        data-aos-duration="3000" data-aos-delay="100">Course we offer</h1>
-        <p data-aos="fade-up"
-        data-aos-duration="3000" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="row">
-            <div class="course-col" data-aos="flip-up"  data-aos-delay="300">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                    corporis laborum. Vero itaque repudiandae </p>
+    </header>  
+    
+    <section class="section-one">
+        <div class="container">
+            <div class="left-side">
+                <div class="title">
+                    <h1>get gold &
+                         <img src="star.png" alt="" class="star">
+                          <br> silver deliverd <br> to your door</h1>
+                </div>
+
+                <p class="p">
+                    Gold and silver have intrinsic value and adds
+                    diversification to your portfolio.
+                    We help investors narrow thier decision 
+                    down to either buying dold or silver bullion bars or coins
+                </p>
+
+                <button>know more</button>
+
             </div>
-            <div class="course-col" data-aos="flip-up"  data-aos-delay="400">
-                <h3>Degree</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                    corporis laborum. Vero itaque repudiandae </p>
-            </div>
-            <div class="course-col" data-aos="flip-up"  data-aos-delay="500">
-                <h3>Post Graduation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                    corporis laborum. Vero itaque repudiandae </p>
+            <div class="right-side pyramid">
+                <img src="gold.png" alt="" class="gold glow image">
             </div>
         </div>
     </section>
-    <!-- ------------------campus------------------ -->
-    <section class="campus">
-        <h1 data-aos="fade-right">Our Global Campus</h1>
-        <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="row">
-            <div class="campus-col">
-                <img src="london.png">
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
+
+    <section>
+        <div class="container">
+            <div class="left-side hand">
+                <img class="gold image" src="gold2.png" alt="">
             </div>
-            <div class="campus-col">
-                <img src="newyork.png">
-                <div class="layer">
-                    <h3>NEW YORK</h3>
+            <div class="right-side">
+                <img src="star.png" class="star star-s2" alt="">
+                <div class="title">
+                    <h1>Investing for <br> the long term</h1>
+                    <h2>Reasons for investing</h2>
                 </div>
-            </div>
-            <div class="campus-col">
-                <img src="washington.png">
-                <div class="layer">
-                    <h3>WASHINGTON</h3>
-                </div>
+
+                <p class="p">
+                    People often choose gold bullion as an long term investment.
+                    Silver generally follows gold in terms of relative values, and in the past decade, 
+                   gold hasdemonstrated a steady overall annual profit.
+                </p>
+
+                <div class="line"></div>
+
+                <p class="p">
+                    They can be traded in the short and medium term, gold & 
+                    silver prices move in the markets.
+                </p>
+                <button>see directions</button>
             </div>
         </div>
     </section>
-    <!-- -------------facilities-------- -->
-    <section class="facilities">
-        <h1 data-aos="flip-left"> Our Facilities</h1>
-        <p data-aos="flip-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="row">
-            <div class="facilities-col" data-aos="zoom-in-down" data-aos-delay="100">
-                <img src="library.png">
-                <h3>World Class Library</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                    corporis laborum. Vero itaque repudiandae </p>
+
+    <section>
+        <div class="container">
+            <div class="left-side">
+                <div class="title">
+                    <h1>Timing og gold & <br> silver prices</h1>
+                    <h2>An unstoppable duo</h2>
+                </div>
+                <div class="type g-type">
+                    <p>Gold</p>
+                    <p>Gold is seen as a hedge against inflation and a store of value through 
+                    thick and through thin.</p>
+                </div>
+
+                <div class="line line-blue"></div>
+
+                <div class="type s-type">
+                    <p>Silver</p>
+                    <p>
+                        Silver prices are much more `volatile` than those of gold 
+                      in the short term.
+                    </p>
+                </div>
+                <div class="line"></div>
             </div>
-            <div class="facilities-col"data-aos="zoom-in-down" data-aos-delay="300">
-                <img src="basketball.png">
-                <h3>Largest Play Ground</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                    corporis laborum. Vero itaque repudiandae </p>
+            <div class="right-side rotation">
+                <img class="gold3 image" src="gold3.png" alt="">
             </div>
-            <div class="facilities-col"data-aos="zoom-in-down" data-aos-delay="300">
-                <img src="cafeteria.png">
-                <h3>Taste and Healthy Food</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                    corporis laborum. Vero itaque repudiandae
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="left-side">
+                <img src="star.png" class="star-s4 star" alt="">
+                <div class="title">
+                    <h1>3 direction</h1>
+                    <h2>Choose your gold</h2>
+                </div>
+            </div>
+            <div class="right-side">
+                <p>
+                    The fineness of gold depends on the amount of ligature - additional metals. 
+                    For example, yellow gold 585* is a metal with the addition 
+                    of 28% silver and 113.5% copper.
+                </p>
+
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card card-1">
+                <div class="rotation">
+                    <img src="card-1.png" alt="" class="img-card image">
+                </div>
+                <div class="color">yellow</div>
+                <span>585 standard gold</span>
+            </div>
+            <div class="card card-2">
+                <div class="rotation">
+                    <img src="card-2.png" alt="" class="img-card image">
+                </div>
+                <div class="color">white</div>
+                <span>585 standard gold</span>
+            </div>
+            <div class="card card-3">
+                <div class="rotation">
+                    <img src="card-3.png" alt="" class="img-card image">
+                </div>
+                <div class="color">pink</div>
+                <span>750 standard gold</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="container" style="padding-bottom:5rem;">
+            <img src="star.png" alt="" class="star star-s5">
+            <div class="left-side">
+                <div class="title">
+                    <h1>stay up-to date</h1>
+                    <h2>With everything precious metals</h2>
+                </div>
+            </div>
+            <div class="right-side">
+                <p class="txt">
+                    Replenish <span>your portfolio</span>
+                    with gold and silver <span>to diversity</span>
+                    your investment portfolio.
                 </p>
             </div>
         </div>
-    </section>
-    <!-- -------------testimonaials------------- -->
-    <sction class="testimonials">
-        <h1 data-aos="flip-right">What Our Student Says</h1>
-        <p data-aos="flip-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="row">
-            <div class="testimonial-col" data-aos="flip-down" data-aos-delay="100">
-                <img src="user1.jpg">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                        corporis laborum. Vero itaque repudiandae</p>
-                    <h3>Christine Berkley</h3>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-half"></ion-icon>
+
+        <div class="line"></div>
+
+        <div class="container sides">
+            <div class="left-side">
+                <div class="logo">
+                    <img src="star.png" class="star" alt="">
+                    <div>Frost Inv.</div>
                 </div>
+
+                <p class="p">
+                    We are based in Los Angeles, USA.<br>
+                    our motto is -investing in knowledge <br>
+                    pays the best dividends.
+                </p>
             </div>
-            <div class="testimonial-col" data-aos="flip-down" data-aos-delay="200">
-                <img src="user2.jpg">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga eum dolore, ratione iure
-                        corporis laborum. Vero itaque repudiandae</p>
-                    <h3>David Byer</h3>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-half"></ion-icon>
-                </div>
+            <div class="right-side">
+                <ul class="menu">
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">company</a></li>
+                    <li><a href="#">help</a></li>
+                    <li><a href="#">client</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">jobs</a></li>
+                    <li><a href="#">docs</a></li>
+                    <li><a href="#">news</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                </ul>
             </div>
         </div>
+    </section>
 
-    </sction>
-    
-    <!-- ----------------call to action--------- -->
-    <section class="cta" data-aos="zoom-in">
-        <h1>
-            Enrll For Our Various Online <br>Anywher From The World
-        </h1>
-        <a href="" class="hero-btn">Contact us</a>
-    </section>
-    <!-- -------------footer----------- -->
-    <section class="footer" data-aos="zoom-in" data-aos-delay="200">
-        <h4>About us</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, quo! Eum esse<br> quas itaque officiis recusandae inventore facilis tenetur quae.</p>
-        <div class="icons">
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>   
-            <ion-icon name="logo-linkedin"></ion-icon>
-        <p>Made by<ion-icon name="heart"></ion-icon> Jatin Kumar</p>
-    </section>
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showmenu() {
-            navLinks.style.right = "0";
-        }
-        function hidemenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+    <footer>
+        <div class="container">
+            <div class="left-side">
+                <p> &copy; copyright 2022 . All rights reserved</p>
+            </div>
+            <div class="right-side center">
+                <p>Term and Conditions</p>
+            </div>
+        </div>
+    </footer>
 </body>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" ></script>
+<script src="script.js"></script>
 </html>
